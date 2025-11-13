@@ -1,9 +1,13 @@
 // Valentino's Anime Gear - demo product data (placeholder images only)
 const PRODUCTS = [
-  // The Slayers
-  { id: 1, title: "Slayers Retro Tee", series: "The Slayers", category: "shirts", img: "images/slayers_shirt_1.jpg", desc: "Classic 90s inspired tee — demo placeholder" },
+  // The Slayers - two shirts, one per cast member
+  { id: 1, title: "Slayers Retro Tee - Lina", series: "The Slayers", category: "shirts", img: "images/slayers_lina.png", desc: "Classic 90s inspired tee — demo placeholder" },
+  { id: 9, title: "Slayers Retro Tee - Gourry", series: "The Slayers", category: "shirts", img: "images/slayers_gourry.png", desc: "Classic 90s inspired tee — demo placeholder" },
+
   // Bubblegum Crisis
   { id: 2, title: "BC Cyber Hoodie", series: "Bubblegum Crisis", category: "hoodies", img: "images/bubblegum_hoodie_1.jpg", desc: "Cyberpunk-style hoodie — placeholder image" },
+  // ... rest of your products unchanged
+];
   // Gunsmith Cats
   { id: 3, title: "Gunsmith Patrol Pants", series: "Gunsmith Cats", category: "pants", img: "images/gunsmith_pants_1.jpg", desc: "Tactical-styled pants — placeholder image" },
   // Shadow Skill
@@ -113,3 +117,4 @@ search.addEventListener('input', render);
 
 // initial render
 render();
+
