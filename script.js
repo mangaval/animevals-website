@@ -1,30 +1,31 @@
 // Valentino's Anime Gear - demo product data (placeholder images only)
 const PRODUCTS = [
-  // The Slayers - two shirts, one per cast member
+  // The Slayers - two shirts, one per cast member (root image files)
   { id: 1, title: "Slayers Retro Tee - Lina", series: "The Slayers", category: "shirts", img: "slayers_lina.png", desc: "Classic 90s inspired tee — demo placeholder" },
   { id: 2, title: "Slayers Retro Tee - Gourry", series: "The Slayers", category: "shirts", img: "slayers_gourry.png", desc: "Classic 90s inspired tee — demo placeholder" },
 
   // Bubblegum Crisis
-  { id: 3, title: "BC Cyber Hoodie", series: "Bubblegum Crisis", category: "hoodies", img: "images/bubblegum_hoodie_1.jpg", desc: "Cyberpunk-style hoodie — placeholder image" },
+  { id: 3, title: "BC Cyber Hoodie", series: "Bubblegum Crisis", category: "hoodies", img: "bubblegum_hoodie_1.jpg", desc: "Cyberpunk-style hoodie — placeholder image" },
 
   // Gunsmith Cats
-  { id: 4, title: "Gunsmith Patrol Pants", series: "Gunsmith Cats", category: "pants", img: "images/gunsmith_pants_1.jpg", desc: "Tactical-styled pants — placeholder image" },
+  { id: 4, title: "Gunsmith Patrol Pants", series: "Gunsmith Cats", category: "pants", img: "gunsmith_pants_1.jpg", desc: "Tactical-styled pants — placeholder image" },
 
   // Shadow Skill
-  { id: 5, title: "Shadow Skill Light Jacket", series: "Shadow Skill", category: "jackets", img: "images/shadowskill_jacket_1.jpg", desc: "Light battle jacket, 90s vibe — placeholder image" },
+  { id: 5, title: "Shadow Skill Light Jacket", series: "Shadow Skill", category: "jackets", img: "shadowskill_jacket_1.jpg", desc: "Light battle jacket, 90s vibe — placeholder image" },
 
   // New Dominion Tank Police
-  { id: 6, title: "Tank Police Team Tee", series: "New Dominion Tank Police", category: "shirts", img: "images/dominion_shirt_1.jpg", desc: "Squad tee — placeholder image" },
+  { id: 6, title: "Tank Police Team Tee", series: "New Dominion Tank Police", category: "shirts", img: "dominion_shirt_1.jpg", desc: "Squad tee — placeholder image" },
 
   // Akira
-  { id: 7, title: "Neo-Tokyo Hoodie", series: "Akira", category: "hoodies", img: "images/akira_hoodie_1.jpg", desc: "Neo-Tokyo style hoodie — placeholder image" },
+  { id: 7, title: "Neo-Tokyo Hoodie", series: "Akira", category: "hoodies", img: "akira_hoodie_1.jpg", desc: "Neo-Tokyo style hoodie — placeholder image" },
 
   // Ninja Scroll
-  { id: 8, title: "Ninja Scroll Track Pants", series: "Ninja Scroll", category: "pants", img: "images/ninja_pants_1.jpg", desc: "Ninja-inspired pants — placeholder image" },
+  { id: 8, title: "Ninja Scroll Track Pants", series: "Ninja Scroll", category: "pants", img: "ninja_pants_1.jpg", desc: "Ninja-inspired pants — placeholder image" },
 
   // Clamp School Detectives
-  { id: 9, title: "Clamp School Sweater", series: "Clamp School Detectives", category: "sweaters", img: "images/clamp_sweater_1.jpg", desc: "Preppy sweater — placeholder image" }
+  { id: 9, title: "Clamp School Sweater", series: "Clamp School Detectives", category: "sweaters", img: "clamp_sweater_1.jpg", desc: "Preppy sweater — placeholder placeholder image" }
 ];
+
 
 // DOM references
 const grid = document.getElementById('productGrid');
@@ -84,6 +85,7 @@ document.addEventListener('click', e=>{
     modalImage.src = p.img;
     modalTitle.textContent = p.title;
     modalDesc.text
+
 
 
 
