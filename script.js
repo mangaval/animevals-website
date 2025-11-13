@@ -1,8 +1,8 @@
 // Valentino's Anime Gear - demo product data (placeholder images only)
 const PRODUCTS = [
   // The Slayers - two shirts, one per cast member
-  { id: 1, title: "Slayers Retro Tee - Lina", series: "The Slayers", category: "shirts", img: "images/slayers_lina.png", desc: "Classic 90s inspired tee — demo placeholder" },
-  { id: 9, title: "Slayers Retro Tee - Gourry", series: "The Slayers", category: "shirts", img: "images/slayers_gourry.png", desc: "Classic 90s inspired tee — demo placeholder" },
+  { id: 1, title: "Slayers Retro Tee - Lina", series: "The Slayers", category: "shirts", img: "slayers_lina.png", desc: "Classic 90s inspired tee — demo placeholder" },
+  { id: 9, title: "Slayers Retro Tee - Gourry", series: "The Slayers", category: "shirts", img: "slayers_gourry.png", desc: "Classic 90s inspired tee — demo placeholder" },
 
   // Bubblegum Crisis
   { id: 2, title: "BC Cyber Hoodie", series: "Bubblegum Crisis", category: "hoodies", img: "images/bubblegum_hoodie_1.jpg", desc: "Cyberpunk-style hoodie — placeholder image" },
@@ -117,4 +117,5 @@ search.addEventListener('input', render);
 
 // initial render
 render();
+
 
