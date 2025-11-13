@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Valentino's Anime Gear</title>
+  <meta name="description" content="Valentino's Anime Gear — 90s-inspired anime apparel showcase (training/demo only)." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">Valentino's Anime Gear</div>
+    <nav class="controls" aria-label="Site controls">
+      <select id="categoryFilter" aria-label="Filter by category">
+        <option value="all">All</option>
+        <option value="shirts">Shirts</option>
+        <option value="pants">Pants</option>
+        <option value="sweaters">Sweaters</option>
+        <option value="hoodies">Hoodies</option>
+        <option value="jackets">Jackets</option>
+      </select>
+      <select id="seriesFilter" aria-label="Filter by series">
+        <option value="all">All series</option>
+        <option value="The Slayers">The Slayers</option>
+        <option value="Bubblegum Crisis">Bubblegum Crisis</option>
+        <option value="Gunsmith Cats">Gunsmith Cats</option>
+        <option value="Shadow Skill">Shadow Skill</option>
+        <option value="New Dominion Tank Police">New Dominion Tank Police</option>
+        <option value="Akira">Akira</option>
+        <option value="Ninja Scroll">Ninja Scroll</option>
+        <option value="Clamp School Detectives">Clamp School Detectives</option>
+      </select>
+      <input id="search" type="search" placeholder="Search title, series, or category" aria-label="Search products" />
+      <button id="wishlistBtn" title="Wishlist (saved locally)">Wishlist <span id="wishCount">0</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>90s anime inspired apparel — demo collection</h1>
+      <p class="muted">Training/demo site: images are placeholders. Replace images with your own assets before public use.</p>
+    </section>
+
+    <section id="productGrid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <!-- Product modal -->
+  <div id="productModal" class="modal" aria-hidden="true">
+    <div class="modal-inner" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="closeBtn" aria-label="Close">×</button>
+      <div class="modal-content">
+        <img id="modalImage" src="" alt="" />
+        <div class="meta">
+          <h2 id="modalTitle"></h2>
+          <p id="modalSeries" class="muted"></p>
+          <p id="modalDesc"></p>
+          <p class="muted" id="modalCategory"></p>
+          <div class="meta-actions">
+            <button id="addWish">Add to Wishlist</button>
+            <button id="viewSource">View Source</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <small>Valentino's Anime Gear — demo only. Replace placeholder images with licensed or original art before publishing.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
